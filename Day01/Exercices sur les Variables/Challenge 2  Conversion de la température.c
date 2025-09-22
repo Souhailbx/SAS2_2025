@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int T ;
+    float T ;
     float K;
     printf("Vuillez Entrez la temperature qui vou voullez changer :");
     scanf("%d",&T);
