@@ -9,7 +9,7 @@ int main() {
         B = (N/10)%10;
         C = (N/100)%10;
         D = (N/1000)%10;
-      printf("  Le nombre a l'inverse est :%d%d%d%d",A,B,C,D);
+      printf("Le nombre a l'inverse est :%d",A*1000+B*100+C*10+D);
 
     return 0;
 
