@@ -6,8 +6,8 @@ struct rectangle {
     int largeur;
     int longeur;
 };
-int rectangl(struct rectangle *A){
-  return A->longeur * A->largeur;
+int area(struct rectangle A){
+  return A.largeur*A.longeur;
 }
 int main() {
     struct rectangle A;
@@ -15,7 +15,6 @@ int main() {
     scanf("%d",&A.longeur);
     printf("Entrez le largeur :");
     scanf("%d",&A.largeur);
-    struct rectangle *B=&A;
-   printf("L'air de rectengel est :%d",rectangl(B));
+   printf("L'air de rectengel est :%d",area(A));
     return 0;
 }
